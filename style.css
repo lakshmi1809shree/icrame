@@ -220,14 +220,14 @@ button:focus {
 /*--------------------*/
 
 #mu-hero {
-	background-image: url("assets/images/head-featured-bg.png");
+	background-image: url("assets/images/Group\ 11.png");
+	width: 100vw;
 	
-	float: left;
-	width: 100%;
 	background-position: center center;
 	background-attachment: fixed;
 	-webkit-background-size: cover;
 	background-size: cover;
+	object-fit: cover;
 }
 
 .mu-hero-overlay {
@@ -248,10 +248,12 @@ button:focus {
 	font-size: 75px;
 	font-family: 'Montserrat', sans-serif;
 	float: left;
+	color:rgba(0, 56, 254, 1);
+	background-color: #fff;
 	font-weight: 400;
-	text-align: left;
-	padding: 5px 20px;
-	margin-bottom: 30px;
+	text-align: center;
+	padding: 0px 0px;
+	margin-top: 8rem;
 }
 
 
@@ -260,7 +262,7 @@ button:focus {
 	right: 15%;
 	top: 50px;
 	color: #fff;
-	font-size: 25px;
+	font-size: 18px;
 	border: 2px solid #fff;
 	padding: 5px 14px;
 	z-index: 999;
@@ -282,7 +284,7 @@ button:focus {
 	display: inline;
 	float: left;
 	padding: 60px 0 150px;
-	width: 60%;
+	width: 100%;
 }
 
 .mu-hero-featured-content {
@@ -290,11 +292,11 @@ button:focus {
 	float: left;
 	margin-top: 50px;
 	
-	width: 100%;
+	width: 50%;
 }
 
 .mu-hero-featured-content h1 {
-	font-size: 45px;
+	font-size: 18px;
 	color: #000;
 	font-weight: 300;
 	margin-bottom: 15px;
@@ -303,7 +305,7 @@ button:focus {
 
 .mu-hero-featured-content h2 {
 	color: #000;
-	font-size: 25px;
+	font-size: 18px;
 	font-weight: 300;
 }
 
@@ -317,14 +319,14 @@ button:focus {
 }
 
 .mu-event-counter-area {
-	display: inline;
+	display: block;
 	float: left;
 	margin-top: 50px;
 	width: 100%;
 }
 
 #mu-event-counter{
-	display: inline;
+	display: block;
 	float: left;
 	width: 100%;
 	text-align: center;
@@ -333,11 +335,11 @@ button:focus {
 .mu-event-counter-block {
 	border: 2px solid #fff;
 	border-radius: 50%;
-	display: inline-block;
+	display:block;
 	height: 180px;
 	width: 180px;
 	text-align: center;
-	font-size: 22px;
+	font-size: 18px;
 	color: #fff;
 	margin: 0 20px;
 	font-weight: 300;
@@ -345,7 +347,7 @@ button:focus {
 
 .mu-event-counter-block span {
 	display: block;
-	font-size: 40px;
+	font-size: 18px;
 	font-weight: 700;
 	padding-top: 56px;
 	line-height: 40px;
@@ -898,7 +900,7 @@ button:focus {
 }
 
 .mu-single-price-head .mu-time {
-	font-size: 16px;
+	font-size: 18px;
 	font-weight: 300;
 	line-height: 0;
 	font-style: italic;
@@ -906,7 +908,7 @@ button:focus {
 
 .mu-single-price .mu-price-title {
 	color: #555;
-	font-size: 22px;
+	font-size: 18px;
 	padding: 10px 0;
 }
 
@@ -923,11 +925,11 @@ button:focus {
 	background-color: #fff;
 	border: 1px solid #555;
 	color: #555;
-	margin-top: 20px;
+	margin-top: 5px;
 	padding: 10px 40px;
 	text-align: center;
 	display: inline-block;
-	margin-bottom: 20px;
+	margin-bottom: 15px;
 	text-transform: uppercase;
 	letter-spacing: 1.5px;
 	-webkit-transition: all 0.5s;
@@ -1394,7 +1396,7 @@ button:focus {
 	}
 
 	.mu-hero-featured-content h1 {
-		font-size: 35px;
+		font-size: 18px !important;
 	}
 
 	.mu-hero-featured-content h2 {

@@ -249,7 +249,7 @@ button:focus {
 	font-family: 'Montserrat', sans-serif;
 	float: left;
 	color:rgba(0, 56, 254, 1);
-	background-color: #fff;
+	/*background-color: #fff;*/
 	font-weight: 400;
 	text-align: center;
 	padding: 0px 0px;
@@ -310,7 +310,7 @@ button:focus {
 }
 
 .mu-event-date-line {
-	background-color: rgba(0, 56, 254, 0.8);
+	background-color: #FF914D;
 	color: #fff;
 	padding: 5px 10px;
 	display: inline-block;
@@ -421,7 +421,7 @@ button:focus {
 }
 
 .mu-title {
-	color: #000;
+	color: #333;
 	margin-bottom: 15px;
 	padding: 0;
 	z-index: 10;
